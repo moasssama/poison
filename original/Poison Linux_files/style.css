@@ -1,0 +1,16 @@
+body{ background-color: black; color: white; margin: 0 auto; max-width: 80%;}
+#logo{color: #0bff00;}
+ul li{margin-bottom: 1%;}
+pre {color: magenta; font-size: 120%;}
+footer{margin-top: 5%;}
+footer pre{color: white; width: 70%;}
+
+h1, h2, h3{ color: yellow;}
+a { color: cyan;}
+a:hover { color: yellow;}
+a:visited {color: cyan;}
+
+@media only screen and (max-width: 480px)
+{
+  body { margin: 2%; max-width: 100%; font-size: 110%;}
+}
